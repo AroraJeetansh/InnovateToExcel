@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "Naman Mittal",
+      "phone": "+91 88822 76873",
+      "designation": "Coordinator, IIC-JUIT",
+      "email": "221030359@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/naman--mittal/"
+    },
+    {
+      "id": 2,
+      "name": "Parth Gupta",
+      "designation": "Coordinator, IIC-JUIT",
+      "phone": "+91 93111 36766",
+      "email": "221040005@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+
+    },
+    {
+      "id": 3,
+      "name": "Animesh Singh",
+      "designation": "Chairperson, ACM JUIT",
+      "phone": "+91 92679 09095",
+      "email": "221030360@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+
+    },
+    {
+      "id": 4,
+      "name": "Harshvardhan",
+      "designation": "Chairperson, IEEE JUIT-SB",
+      "phone": "+91 82219 51947",
+      "email": "221030409@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+
+    },
+    {
+      "id": 5,
+      "name": "Ashmi Sharma",
+      "designation": "Operations Head",
+      "phone": "+91 62300 58125",
+      "email": "221030168@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+    },
+    {
+      "id": 6,
+      "name": "A.C Katoch",
+      "designation": "",
+      "phone": "+91 6230 990 409",
+      "email": "221020001@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+    }
+  ]
