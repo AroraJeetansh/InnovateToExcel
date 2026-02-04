@@ -61,29 +61,46 @@ const Header = () => {
         >
           <div className="relative z-2 flex lg:!flex-row flex-col items-center justify-center m-auto ">
             {navigation.map((item) => (
-              <a
-                key={item.id}
-                href={item.url}
-                onClick={handleClick}
-                className={`block relative font-code text-n-1 transition-colors hover:text-color-1 ${
-                  item.onlyMobile ? "lg:hidden" : ""
-                } px-4 py-4 lg:text-base lg:font-semibold ${
-                  item.url === pathname.hash
-                    ? "z-2 lg:text-n-1"
-                    : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 lg:px-6`}
-              >
-                {item.title}
-              </a>
+              item.url.startsWith('#') ? (
+                <a
+                  key={item.id}
+                  href={item.url}
+                  onClick={handleClick}
+                  className={`block relative font-code text-n-1 transition-colors hover:text-color-1 ${
+                    item.onlyMobile ? "lg:hidden" : ""
+                  } px-4 py-4 lg:text-base lg:font-semibold ${
+                    item.url === pathname.hash
+                      ? "z-2 lg:text-n-1"
+                      : "lg:text-n-1/50"
+                  } lg:leading-5 lg:hover:text-n-1 lg:px-6`}
+                >
+                  {item.title}
+                </a>
+              ) : (
+                <Link
+                  key={item.id}
+                  to={item.url}
+                  onClick={handleClick}
+                  className={`block relative font-code text-n-1 transition-colors hover:text-color-1 ${
+                    item.onlyMobile ? "lg:hidden" : ""
+                  } px-4 py-4 lg:text-base lg:font-semibold ${
+                    pathname.pathname === item.url
+                      ? "z-2 lg:text-n-1"
+                      : "lg:text-n-1/50"
+                  } lg:leading-5 lg:hover:text-n-1 lg:px-6`}
+                >
+                  {item.title}
+                </Link>
+              )
             ))}
             {isLoggedIn && (
               <>
-                <a
-                  href="#participate"
+                <Link
+                  to="/events"
                   className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"
                 >
                   Participate
-                </a>
+                </Link>
                 <button
                   onClick={handleLogout}
                   className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"

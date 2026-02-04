@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import AnimatedCursor from "react-animated-cursor";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Events from "./components/Events";
+import EventDetails from "./components/EventDetails";
 import JYC from "./components/JYC";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -41,6 +42,11 @@ const App = () => {
             <Teams />
             <Contacts />
             <Footer />
+          </>
+        } />
+        <Route path="/events" element={
+          <>
+            <EventDetails />
           </>
         } />
         <Route path="/register" element={<Register />} />

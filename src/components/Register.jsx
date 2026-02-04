@@ -47,7 +47,6 @@ const Register = () => {
     localStorage.setItem('token', data.token);
     localStorage.setItem('user', JSON.stringify(data.user));
     
-    // Redirect to home after success
     setTimeout(() => {
       navigate('/');
     }, 1500);
@@ -68,6 +67,7 @@ const Register = () => {
             fields={registerFields}
             buttonText="Register"
             onSubmit={handleRegister}
+            successMessage="Registered successfully!"
             className="w-full"
           />
           <p className="text-n-4 text-center mt-6">

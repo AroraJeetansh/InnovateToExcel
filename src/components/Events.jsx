@@ -215,8 +215,8 @@ const Benefits = () => {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full justify-items-center">
     {studentEvents.map((item) => (
       <a
-        href={item.documentUrl} // Make sure each item has this key
-        target="_blank"
+        href="/events"
+        target="_self"
         rel="noopener noreferrer"
         key={item.id}
         className="w-full max-w-sm"

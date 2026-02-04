@@ -270,7 +270,16 @@ export const studentEvents = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage10,
     documentUrl: ""
-  }
+  },
+  {
+  id: "8",
+  title: "THE FINAL STATEMENT",
+  text: "Step into the spotlight in a high-stakes press conference challenge. Defend your startup’s decisions, handle tough questions, and showcase leadership, strategy, and confidence under pressure.",
+  backgroundUrl: benefitCard1,
+  iconUrl: benefitIcon1,
+  imageUrl: benefitImage8,
+  documentUrl: ""
+}
 ];
 
 

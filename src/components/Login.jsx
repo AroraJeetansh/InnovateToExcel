@@ -53,6 +53,7 @@ const Login = () => {
             fields={loginFields}
             buttonText="Sign In"
             onSubmit={handleLogin}
+            successMessage="Logged in successfully!"
             className="w-full"
           />
           <p className="text-n-4 text-center mt-6">

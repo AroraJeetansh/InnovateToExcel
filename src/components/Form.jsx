@@ -5,7 +5,8 @@ const Form = ({
   fields = [], 
   buttonText = "Submit", 
   onSubmit,
-  className = "" 
+  className = "",
+  successMessage = "Form submitted successfully!"
 }) => {
   const [formData, setFormData] = useState({});
   const [loading, setLoading] = useState(false);
@@ -52,8 +53,8 @@ const Form = ({
           )}
           
           {success && (
-            <div className="bg-color-4/10 border border-color-4/30 rounded-xl p-3 text-color-4 text-sm text-center">
-              Form submitted successfully!
+            <div className="bg-color-1/10 border border-color-1/30 rounded-xl p-3 text-color-1 text-sm text-center">
+              {successMessage}
             </div>
           )}
           

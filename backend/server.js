@@ -7,7 +7,6 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 import connectDB from './db/db.js';
 import User from './models/User.js';
-import Contact from './models/Contact.js';
 
 dotenv.config();
 
@@ -181,44 +180,6 @@ app.put('/api/auth/profile', authenticateToken, async (req, res) => {
   } catch (error) {
     console.error('Update profile error:', error);
     res.status(500).json({ error: 'Server error updating profile' });
-  }
-});
-
-// Submit contact form
-app.post('/api/contact', async (req, res) => {
-  try {
-    const { name, email, phone, subject, message } = req.body;
-
-    if (!name || !email || !message) {
-      return res.status(400).json({ error: 'Name, email, and message are required' });
-    }
-
-    const contact = await Contact.create({
-      name,
-      email,
-      phone,
-      subject,
-      message
-    });
-
-    res.status(201).json({
-      message: 'Message sent successfully',
-      contact
-    });
-  } catch (error) {
-    console.error('Contact error:', error);
-    res.status(500).json({ error: error.message || 'Server error sending message' });
-  }
-});
-
-// Get all contacts (admin only)
-app.get('/api/contacts', authenticateToken, async (req, res) => {
-  try {
-    const contacts = await Contact.find().sort({ createdAt: -1 });
-    res.json({ contacts });
-  } catch (error) {
-    console.error('Get contacts error:', error);
-    res.status(500).json({ error: 'Server error fetching contacts' });
   }
 });
 
