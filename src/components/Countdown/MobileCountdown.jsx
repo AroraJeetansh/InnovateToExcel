@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-const MobileCountdown = ({ targetDate = new Date('2025-05-02T14:00:00') }) => {
+const MobileCountdown = ({ targetDate = new Date('2026-02-20T14:00:00') }) => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,

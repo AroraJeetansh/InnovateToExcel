@@ -19,7 +19,7 @@ class Completed extends Component {
 class RenderByUsingReactChild extends Component {
   render() {
     // Set target date to May 2, 2025, 09:00
-    const targetDate = new Date(2025, 4, 2, 14, 0).getTime();
+    const targetDate = new Date('2026-02-20T14:00:00').getTime();
 
     return (
       <FlipClockCountdown

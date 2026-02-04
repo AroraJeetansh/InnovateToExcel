@@ -1,7 +1,9 @@
-{ 
+{
     "facultyIncharge": [
         {
             "id": 1,
+
+            
             "name": "Dr. Naveen Jaglan",
             "designation": "Faculty Incharge",
             "imageUrl": "/faculty/Naveen_Jaglan.webp",
@@ -11,25 +13,17 @@
     "tmpFaculty": [
         {
             "id": 1,
-            "name": "Dr. Surender Singh",
-            "designation": "Senior Principal Scientist at Indo-Swiss Training Center (ISTC) Research and Development",
-            "imageUrl": "/faculty/SurenderSinghSaini.jpg",
-            "linkedinUrl": "https://www.linkedin.com/in/surender-singh-saini-7683921b/"
-        },
-        {
-            "id": 2,
-           
-            "name": "Mr. Amit Madaan",
-            "designation": "CEO - A Square Media Author - Marketing Shark Eating  Founder - Aurael Tech Trades",
-            "imageUrl": "/faculty/AmitMadaan.jpg",
-            "linkedinUrl": "https://www.linkedin.com/in/amitmmadaan/"
+            "name": "Mr. Harit Mohan",
+            "designation": "Founder & CEO, Signicent TiE Global BOT (26-27) ",
+            "imageUrl": "/faculty/Harit Mohan.jpg",
+            "linkedinUrl": "https://www.linkedin.com/in/mohanharit"
         },
         {
             "id": 3,
-            "name": "Mr. Anmol Jamwal",
-            "designation": "Investor-Partner at India Accelerator. Featured as Asia's Top 10 Influential Young Entrepreneurs",
-            "imageUrl": "/faculty/AnmolJamwall.jpg",
-            "linkedinUrl": "https://www.linkedin.com/in/anmoljamwal/"   
+            "name": "Mr. Satish Kumar Arora",
+            "designation": "Co-Founder - AppSmartz & GameSee Pvt. Ltd.",
+            "imageUrl": "/faculty/Satish_Kumar_Arora.jpg",
+            "linkedinUrl": "https://www.linkedin.com/in/skarora27/"
         },
         {
             "id": 4,
@@ -39,14 +33,21 @@
             "linkedinUrl": "https://www.linkedin.com/in/ekant-agarwal/"
         },
         {
+            "id": 5,
+            "name": "Mrs. Jas K Shan",
+            "designation": "Founder & CEO - JH Dialogues 2x TEDx, Life Skill coach",
+            "imageUrl": "/faculty/Jas K Shan.jpg",
+            "linkedinUrl": "https://www.linkedin.com/in/jas-k-shan/"
+        },
+        {
             "id": 6,
             "name": "Mr. Hitesh Gulati",
             "designation": "Human Capital Transformation & Change Management Consultant",
             "imageUrl": "/faculty/HiteshGulati.jpg",
-            "linkedinUrl": "https://www.linkedin.com/in/hgulati/" 
+            "linkedinUrl": "https://www.linkedin.com/in/hgulati/"
         }
     ],
-    "mentors" : [
+    "mentors": [
         {
             "id": 1,
             "name": "Srijan Saraswat",
@@ -80,8 +81,7 @@
             "instagramUrl": "https://www.instagram.com/ayusshh_rawat/"
         }
     ],
-
-    "teamleads" : [
+    "teamleads": [
         {
             "id": 1,
             "name": "Nivi Jha",
@@ -107,7 +107,7 @@
             "instagramUrl": "https://www.instagram.com/raavi_aggarwal28/"
         }
     ],
-    "contributors" : [
+    "contributors": [
         {
             "id": 1,
             "name": "Rushil Sharma",

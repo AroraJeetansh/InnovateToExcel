@@ -42,15 +42,15 @@ const Hero = () => {
           Innovate, Integrate, Engineer 🌌
           </p>
           <div className="hidden 2xl:block mt-0 mb-2">
-  <Countdown />
-</div>
-<div className="2xl:hidden mt-1 mb-4">
-  <MobileCountdown />
-</div>
+    <Countdown />
+  </div>
+  <div className="2xl:hidden mt-1 mb-4">
+    <MobileCountdown />
+  </div>
           <p className="mb-5 text-3xl font-semibold text-primary">
             Register now!
           </p>
-          <Button
+          {/* <Button
             href="https://forms.gle/tgg19QPDiFC3Gzhp8"
             className="text-xl"
             white
@@ -63,13 +63,20 @@ const Hero = () => {
             white
           >
             Non-JHES students
-          </Button>
-          <Button
+          </Button> */}
+          {/* <Button
             href="https://forms.gle/sihyD7jVm1kCexzu8"
             className="text-xl ml-4 mt-4 sm:mt-0"
             white
           >
             JUIT Students
+          </Button> */}
+          <Button
+            href="/register"
+            className="text-xl ml-4 mt-4 sm:mt-0"
+            white
+          >
+            Register
           </Button>
           <p className="mt-5 text-center text-base lg:text-lg">
             For more info, click{" "}

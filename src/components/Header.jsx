@@ -1,16 +1,30 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import muriousLogo from "../assets/muriousLogo.webp"
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import iiclogo from "../assets/iiclogo.png";
 
 const Header = () => {
   const pathname = useLocation();
+  const navigate = useNavigate();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    setIsLoggedIn(!!token);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    setIsLoggedIn(false);
+    navigate('/login');
+  };
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -36,8 +50,8 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className={`block w-[12rem] xl:mr-8 ${openNavigation == true ? "relative z-3" : ""}`}  href="/">
-          <img src={iiclogo} width={50} height={25} alt="logo" />
+        <a className={`block w-[8rem] xl:mr-6 ${openNavigation == true ? "relative z-3" : ""}`}  href="/">
+          <img src={iiclogo} width={40} height={20} alt="logo" />
         </a>
 
         <nav
@@ -51,17 +65,33 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xl lg:font-semibold ${
+                } px-4 py-4 lg:text-base lg:font-semibold ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                } lg:leading-5 lg:hover:text-n-1 lg:px-6`}
               >
                 {item.title}
               </a>
             ))}
+            {isLoggedIn && (
+              <>
+                <a
+                  href="#participate"
+                  className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"
+                >
+                  Participate
+                </a>
+                <button
+                  onClick={handleLogout}
+                  className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"
+                >
+                  Logout
+                </button>
+              </>
+            )}
           </div>
 
           <HamburgerMenu />

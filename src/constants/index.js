@@ -204,36 +204,36 @@ export const studentEvents = [
     backgroundUrl: benefitCard1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage8,
-    documentUrl: "https://docs.google.com/document/d/1JwiQ8wKIdSJYfDJXhV5gMGBSASDnApF_nQnFLJQCWWE/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "1",
-    title: "Hard-Wired",
-    text: "The Hardware Hackathon challenges participants to build innovative, tangible solutions addressing sustainability issues. Whether it's energy-efficient devices, smart waste management, or IoT-based urban solutions, this event focuses on real-world impact through hardware development.",
+    title: "Stochastic Play",
+    text: "A high-intensity coding contest where precision meets pressure. Solve tough algorithmic challenges, think fast, and prove your speed, strategy, and skill.",
     backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage6,
     light: true,
-    documentUrl: "https://docs.google.com/document/d/1qK12bD7mOJfG5EFOdUCHACVlu19nXDUfHnBggzdfpYY/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "2",
-    title: "Codeathon",
-    text: "Join a high-speed coding marathon where logic meets speed. Crack problems, write efficient code, and race against time to top the leaderboard!",
+    title: "Capture The Flag",
+    text: "A 12-hour high-adrenaline CTF challenge following Cyber Session, testing your hacking, cryptography, and web security skills through intense problem-solving battles.",
     backgroundUrl: benefitCard3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage4,
-    documentUrl: "https://docs.google.com/document/d/1F9W2O6TPuC93jm95Akq23LSUYydMkggOymNIR7vRSYw/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "3",
-    title: "Board-Room",
-    text: "Step into the shoes of a tech strategist! Analyze data, make bold decisions, and present your game-changing ideas in this entrepreneurial showdown.",
+    title: "Bridge Building",
+    text: "A hands-on bridge-building challenge where creativity meets engineering. Design smart, build strong, and test your structure under real load.",
     backgroundUrl: benefitCard4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage11,
     light: true,
-    documentUrl: "https://docs.google.com/document/d/1-FMmtS4jgf2QbG1-QkWQwhG-XCBZdZDF3d0Gde71ERs/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "4",
@@ -242,7 +242,7 @@ export const studentEvents = [
     backgroundUrl: benefitCard5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    documentUrl: "https://docs.google.com/document/d/1FArVmmBoKnO2RMDqbHB_b_RcP3iepBoIzETodr3R6Ak/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "5",
@@ -251,25 +251,25 @@ export const studentEvents = [
     backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage7,
-    documentUrl: "https://docs.google.com/document/d/1YLW2QagxZypvkc_GwBc7bN9QU-aKHvNiyrJIQx6WFHA/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "6",
-    title: "Panel Discussion",
-    text: "Engage in thought-provoking discussions with experts across domains. Explore diverse perspectives on tech trends, ethics, and the future of innovation.",
+    title: "Entrepreneurial Talk",
+    text: "An inspiring talk where real startup stories meet ambition, offering practical insights into building, leading, and scaling ideas.",
     backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage12,
-    documentUrl: "https://docs.google.com/document/d/1Q8yey8-u-Y9oPWRNUif_40k_j8I4p3nbMNgVHFnYsxw/edit?usp=sharing"
+    documentUrl: ""
   },
   {
     id: "7",
-    title: "Pixel Play",
-    text: "Unwind with a mix of quirky coding challenges, logic puzzles, and interactive games designed to make you laugh, think, and compete with friends!",
+    title: "Embed Expo",
+    text: "An IoT showcase where hardware meets imagination, featuring smart, sensor-based projects that turn real-world ideas into working solutions.",
     backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage10,
-    documentUrl: "https://docs.google.com/document/d/1lAWxPZPkVlSnVpBATwa0aabh0CKuN84NIi6EOAzh110/edit?usp=sharing"
+    documentUrl: ""
   }
 ];
 

@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom';
 import AnimatedCursor from "react-animated-cursor";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Events from "./components/Events";
@@ -8,37 +9,46 @@ import Hero from "./components/Hero";
 import Contacts from "./components/Contacts";
 import Teams from "./components/TeamsList";
 import Murious from "./components/Murious";
-  
+import Register from "./components/Register";
+import Login from "./components/Login";
+
 const App = () => {
   const isDesktop = window.matchMedia("(min-width: 960px)").matches;
+
   return (
-    <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        {isDesktop ? <AnimatedCursor
-          innerSize={8}
-          outerSize={40}
-          innerScale={1}
-          outerScale={1.75}
-          outerAlpha={0}
-          hasBlendMode={true}
-          innerStyle={{
-            backgroundColor: "white",
-          }}
-          outerStyle={{
-            border: "3px solid white",
-          }}
-        />: ""}
-        <Header />
-        <Hero />
-        <Events />
-        <JYC />
-        <Teams />
-        <Contacts />
-        <Footer />
-      </div>
+    <div className="overflow-hidden">
+      {isDesktop ? <AnimatedCursor
+        innerSize={8}
+        outerSize={40}
+        innerScale={1}
+        outerScale={1.75}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: "white",
+        }}
+        outerStyle={{
+          border: "3px solid white",
+        }}
+      />: ""}
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Header />
+            <Hero />
+            <Events />
+            <JYC />
+            <Teams />
+            <Contacts />
+            <Footer />
+          </>
+        } />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
 
       <ButtonGradient />
-    </>
+    </div>
   );
 };
 
