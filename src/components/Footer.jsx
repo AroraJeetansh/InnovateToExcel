@@ -10,7 +10,7 @@ const Footer = () => {
     <Section crosses className="!px-0 !py-10">
       <footer className="footer">
         <div className="footer-container">
-          {/* Logos */}
+
           <div className="footer-top">
             <img
               src={JUITLogo}
@@ -18,12 +18,9 @@ const Footer = () => {
               className="logo logo-left"
               style={{ width: "100px", height: "auto" }}
             />
-            <img
-              src="https://jyc.co.in/images/tech%20logo%20(1).png"
-              alt="Developer Logo"
-              className="logo logo-right"
-              style={{ width: "200px", height: "auto" }}
-            />
+            <div className="made-by-team">
+              <h2 className="text-xl font-bold text-n-1">Built by Jeetansh Arora and Team</h2>
+            </div>
           </div>
 
           {/* Enhanced Footer Content */}

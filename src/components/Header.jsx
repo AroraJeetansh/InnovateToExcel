@@ -1,30 +1,16 @@
-import { useLocation, Link, useNavigate } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import muriousLogo from "../assets/muriousLogo.webp"
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import iiclogo from "../assets/iiclogo.png";
 
 const Header = () => {
   const pathname = useLocation();
-  const navigate = useNavigate();
   const [openNavigation, setOpenNavigation] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    setIsLoggedIn(!!token);
-  }, []);
-
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
-    setIsLoggedIn(false);
-    navigate('/login');
-  };
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -93,22 +79,6 @@ const Header = () => {
                 </Link>
               )
             ))}
-            {isLoggedIn && (
-              <>
-                <Link
-                  to="/events"
-                  className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"
-                >
-                  Participate
-                </Link>
-                <button
-                  onClick={handleLogout}
-                  className="block relative font-code text-n-1 transition-colors hover:text-color-1 px-4 py-4 lg:text-base lg:font-semibold lg:leading-5 lg:hover:text-n-1 lg:px-6"
-                >
-                  Logout
-                </button>
-              </>
-            )}
           </div>
 
           <HamburgerMenu />

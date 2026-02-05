@@ -1,53 +1,85 @@
 [
     {
       "id": 1,
-      "name": "Naman Mittal",
-      "phone": "+91 88822 76873",
-      "designation": "Coordinator, IIC-JUIT",
-      "email": "221030359@juitsolan.in",
-      "linkedinUrl": "https://www.linkedin.com/in/naman--mittal/"
+      "name": "Sarthak Chandel",
+      "phone": "+91 78767 72871",
+      "designation": "Chief Coordinator, IIC-JUIT",
+      "email": "231030287@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
     },
     {
       "id": 2,
-      "name": "Parth Gupta",
-      "designation": "Coordinator, IIC-JUIT",
-      "phone": "+91 93111 36766",
-      "email": "221040005@juitsolan.in",
+      "name": "Omansh Sharma",
+      "designation": "Coordinator and Treasurer",
+      "phone": "+91 62307 77116",
+      "email": "231030069@juitsolan.in",
       "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
 
     },
     {
       "id": 3,
-      "name": "Animesh Singh",
-      "designation": "Chairperson, ACM JUIT",
-      "phone": "+91 92679 09095",
-      "email": "221030360@juitsolan.in",
+      "name": "Ritik Joshi",
+      "designation": "President, SIAM JUIT",
+      "phone": "+91 70175 72929",
+      "email": "231030070@juitsolan.in",
       "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
 
     },
     {
       "id": 4,
-      "name": "Harshvardhan",
-      "designation": "Chairperson, IEEE JUIT-SB",
-      "phone": "+91 82219 51947",
-      "email": "221030409@juitsolan.in",
+      "name": "Arin Kumar",
+      "designation": "President,  JAC",
+      "phone": "+91 79 7678 4577",
+      "email": "231030025@juitsolan.in",
       "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
 
     },
     {
       "id": 5,
-      "name": "Ashmi Sharma",
-      "designation": "Operations Head",
-      "phone": "+91 62300 58125",
-      "email": "221030168@juitsolan.in",
+      "name": "Harshit Goyal",
+      "designation": "Chairperson, IEEE-JUIT",
+      "phone": "+91 62393 77427",
+      "email": "231030077@juitsolan.in",
+      "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+    },
+     {
+      "id": 6,
+      "name": "Raghav Joshi",
+      "designation": "Chairperson, ACM",
+      "phone": "+91 70188 50317",
+      "email": " 231030101@juitsolan.in",
       "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
     },
     {
-      "id": 6,
-      "name": "A.C Katoch",
-      "designation": "",
-      "phone": "+91 6230 990 409",
-      "email": "221020001@juitsolan.in",
+      "id": 7,
+      "name": "Krishna Pratap Singh",
+      "designation": "Team Head, TIEDC-JUIT",
+      "phone": "+91 85959 67394",
+      "email": "231030233@juitsolan.in",
       "linkedinUrl": "https://www.linkedin.com/in/-parth-gupta-/"
+    },
+    {
+      "id": 8,
+      "name": "Aaryaman katoch",
+      "phone": "+91 62309 90409",
+      "email": "221020001@juitsolan.in"
+    },
+    {
+      "id": 9,
+      "name": "Sanya jain",
+      "phone": "+91 78300 18655",
+      "email": "221030048@juitsolan.in"
+    },
+    {
+      "id": 10,
+      "name": "Kartavya raj chauhan",
+      "phone": "+91 88874 0152",
+      "email": "231030290@juitsolan.in"
+    },
+    {
+      "id": 11,
+      "name": "Mandeep Singh",
+      "phone": "+91 92192 78688",
+      "email": "231030091@juitsolan.in"
     }
   ]

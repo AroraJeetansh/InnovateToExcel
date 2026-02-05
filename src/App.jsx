@@ -10,8 +10,6 @@ import Hero from "./components/Hero";
 import Contacts from "./components/Contacts";
 import Teams from "./components/TeamsList";
 import Murious from "./components/Murious";
-import Register from "./components/Register";
-import Login from "./components/Login";
 
 const App = () => {
   const isDesktop = window.matchMedia("(min-width: 960px)").matches;
@@ -49,8 +47,6 @@ const App = () => {
             <EventDetails />
           </>
         } />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
       </Routes>
 
       <ButtonGradient />

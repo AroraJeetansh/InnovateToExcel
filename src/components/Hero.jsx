@@ -50,29 +50,8 @@ const Hero = () => {
           <p className="mb-5 text-3xl font-semibold text-primary">
             Register now!
           </p>
-          {/* <Button
-            href="https://forms.gle/tgg19QPDiFC3Gzhp8"
-            className="text-xl"
-            white
-          >
-            JHES students
-          </Button>
           <Button
-            href="https://forms.gle/be7qftaCRHQXa2Zq6"
-            className="text-xl ml-4 mt-4 sm:mt-0"
-            white
-          >
-            Non-JHES students
-          </Button> */}
-          {/* <Button
-            href="https://forms.gle/sihyD7jVm1kCexzu8"
-            className="text-xl ml-4 mt-4 sm:mt-0"
-            white
-          >
-            JUIT Students
-          </Button> */}
-          <Button
-            href="/register"
+            href="/events"
             className="text-xl ml-4 mt-4 sm:mt-0"
             white
           >
