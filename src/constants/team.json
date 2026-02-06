@@ -15,35 +15,35 @@
             "id": 1,
             "name": "Mr. Harit Mohan",
             "designation": "Founder & CEO, Signicent TiE Global BOT (26-27) ",
-            "imageUrl": "/faculty/Harit Mohan.jpg",
+            "imageUrl": "https://res.cloudinary.com/dgvfmxzg0/image/upload/v1770384691/Harit_Mohan_s7nlgu.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/mohanharit"
         },
         {
             "id": 3,
             "name": "Mr. Satish Kumar Arora",
             "designation": "Co-Founder - AppSmartz & GameSee Pvt. Ltd.",
-            "imageUrl": "/faculty/Satish_Kumar_Arora.jpg",
+            "imageUrl": "https://res.cloudinary.com/dgvfmxzg0/image/upload/v1770384691/Satish_Kumar_Arora_k66418.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/skarora27/"
         },
         {
             "id": 4,
             "name": "Adv. Ekant Agarwal",
             "designation": "Founder and CEO - Ekant Associates and CBMA . Co-Founder - POSH MASTERS",
-            "imageUrl": "/faculty/EkantAgarwal.jpg",
+            "imageUrl": "https://res.cloudinary.com/dgvfmxzg0/image/upload/v1770384691/EkantAgarwal_qeljb9.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/ekant-agarwal/"
         },
         {
             "id": 5,
             "name": "Mrs. Jas K Shan",
             "designation": "Founder & CEO - JH Dialogues 2x TEDx, Life Skill coach",
-            "imageUrl": "/faculty/Jas K Shan.jpg",
+            "imageUrl": "https://res.cloudinary.com/dgvfmxzg0/image/upload/v1770384691/Jas_K_Shan_wqrznn.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/jas-k-shan/"
         },
         {
             "id": 6,
             "name": "Mr. Hitesh Gulati",
             "designation": "Human Capital Transformation & Change Management Consultant",
-            "imageUrl": "/faculty/HiteshGulati.jpg",
+            "imageUrl": "https://res.cloudinary.com/dgvfmxzg0/image/upload/v1770384691/HiteshGulati_p4r9mf.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/hgulati/"
         }
     ],

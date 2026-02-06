@@ -19,7 +19,7 @@ const Footer = () => {
               style={{ width: "100px", height: "auto" }}
             />
             <div className="made-by-team">
-              <h2 className="text-xl font-bold text-n-1">Built by Jeetansh Arora and Team</h2>
+              <h2 className="text-xl font-bold text-n-1">Built by Jeetansh Arora, Aryan Suneja and team</h2>
             </div>
           </div>
 
