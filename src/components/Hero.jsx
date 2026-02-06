@@ -50,13 +50,29 @@ const Hero = () => {
           <p className="mb-5 text-3xl font-semibold text-primary">
             Register now!
           </p>
-          <Button
-            href="/events"
-            className="text-xl ml-4 mt-4 sm:mt-0"
-            white
-          >
-            Register
-          </Button>
+          <div className="flex flex-wrap justify-center gap-4 mt-4">
+            <Button
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc86K4Pr1ekkOvNOdyiofYG-poQ1Rk8fl4yT1HKMw7EVxZH_g/viewform"
+              className="text-xl"
+              white
+            >
+              JUIT Students
+            </Button>
+            <Button
+              href="https://forms.gle/UDKGVGhx2kihoVyz5"
+              className="text-xl"
+              white
+            >
+              Other Jaypee Institutes
+            </Button>
+            <Button
+              href="https://forms.gle/nsPWywhi34CyH3347"
+              className="text-xl"
+              white
+            >
+              Non - Jaypee Institutes
+            </Button>
+          </div>
           <p className="mt-5 text-center text-base lg:text-lg">
             For more info, click{" "}
             <a

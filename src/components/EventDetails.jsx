@@ -103,13 +103,35 @@ const AccordionItem = ({ event, isOpen, onClick }) => {
               <p className="text-n-3 leading-relaxed">{event.fullDescription}</p>
             </div>
 
-            {/* Register Button */}
+            {/* Register Buttons */}
             <div className="pt-4">
-              <button
-                className="inline-flex items-center gap-2 px-6 py-3 bg-color-1 text-n-8 font-semibold rounded-lg hover:bg-color-1/90 transition-colors cursor-default"
-              >
-                Register for this Event
-              </button>
+              <p className="text-n-4 text-sm mb-3">Register based on your institute:</p>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc86K4Pr1ekkOvNOdyiofYG-poQ1Rk8fl4yT1HKMw7EVxZH_g/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-color-1 text-n-8 font-semibold rounded-lg hover:bg-color-1/90 transition-colors"
+                >
+                  JUIT Students
+                </a>
+                <a
+                  href="https://forms.gle/nsPWywhi34CyH3347"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-color-1 text-n-8 font-semibold rounded-lg hover:bg-color-1/90 transition-colors"
+                >
+                  Non - Jaypee Institutes
+                </a>
+                <a
+                  href="https://forms.gle/UDKGVGhx2kihoVyz5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-color-1 text-n-8 font-semibold rounded-lg hover:bg-color-1/90 transition-colors"
+                >
+                  Other Jaypee Institutes
+                </a>
+              </div>
             </div>
           </div>
         </div>
