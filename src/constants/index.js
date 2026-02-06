@@ -54,6 +54,7 @@ import {
   AcmLogo,
   TIEDCLogo,
   TMPLogo,
+  robotronics,
 } from "../assets";
 
 export const navigation = [
@@ -89,7 +90,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [SIAMLogo, IEEELogo, TIEDCLogo, AcmLogo, CSALogo, TMPLogo, CEC];
+export const companyLogos = [SIAMLogo, IEEELogo, TIEDCLogo, AcmLogo, CSALogo, TMPLogo, CEC, ICPlogo, robotronics];
 
 export const brainwaveServices = [
   "Photo generating",

@@ -41,6 +41,8 @@ import cafesserie from './cafesserie.jpeg';
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import jycLogo from "./collaboration/logojyc.png"
+import robotronics from "./robotronics.jpg";
+import ICP from "./ICP.jpg";
 
 import muriousLogo from "./services/muriousLogo.webp"
 
@@ -168,6 +170,8 @@ export {
   telegram,
   twitter,
   jycLogo,
+  robotronics,
+  ICP,
   muriousLogo,
   contacts,
   JUITLogo,
