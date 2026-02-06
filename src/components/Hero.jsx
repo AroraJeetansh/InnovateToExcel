@@ -53,21 +53,21 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-4">
             <Button
               href="https://docs.google.com/forms/d/e/1FAIpQLSc86K4Pr1ekkOvNOdyiofYG-poQ1Rk8fl4yT1HKMw7EVxZH_g/viewform"
-              className="text-xl"
+              className="text-sm sm:text-base"
               white
             >
               JUIT Students
             </Button>
             <Button
               href="https://forms.gle/UDKGVGhx2kihoVyz5"
-              className="text-xl"
+              className="text-sm sm:text-base"
               white
             >
               Other Jaypee Institutes
             </Button>
             <Button
               href="https://forms.gle/nsPWywhi34CyH3347"
-              className="text-xl"
+              className="text-sm sm:text-base"
               white
             >
               Non - Jaypee Institutes
