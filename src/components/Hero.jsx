@@ -76,7 +76,7 @@ const Hero = () => {
           <p className="mt-5 text-center text-base lg:text-lg">
             For more info, click{" "}
             <a
-              href="https://docs.google.com/document/d/1JY1zH-SRTPfI2g5ffnemFM3U_uUxlyxRRU5YlxjTuYg/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1Kcruvmk7FOMOXFVrfiQl4UBy8EUOJC_iYhsQxA4jWzk/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary underline"
